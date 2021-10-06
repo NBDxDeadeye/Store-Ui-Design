@@ -1,0 +1,37 @@
+
+hr:not([size]){
+    height: 3px;
+    color: #0d6efda3;
+    opacity: 1;
+}
+p{
+    text-decoration: none;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #2096ecd6;
+}
+.nav1{
+    display:flex;
+    height: 22px;
+    position: sticky;
+    z-index: 1.5;
+    
+}
+.right{
+    display: flex;
+    position: absolute;
+    right: 20px;
+    padding-top: 5px;
+    
+}
+.right .fas{
+    display: flex;
+    padding: 0 5px;
+
+}
+.left{
+    padding-left: 50px;
+    padding-top: 3px;
+}
+   
